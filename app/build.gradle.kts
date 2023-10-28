@@ -5,8 +5,10 @@ plugins {
 
 android {
     namespace = "kr.ac.wku.kotlin_231028"
-    compileSdk = 33
-
+    compileSdk = 34
+    dataBinding{
+        enable=true
+    }
     defaultConfig {
         applicationId = "kr.ac.wku.kotlin_231028"
         minSdk = 24
